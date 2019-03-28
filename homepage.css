@@ -1,0 +1,191 @@
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color:#616161;
+  margin: auto;
+  padding: 0px;
+  background-color: #F8BBD0;
+  text-align:center;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header-img {
+  padding-top: 10px;
+  margin: 10px;
+  }
+
+nav {
+  height: 100px;
+  font-weight:bold;
+  font-size: 16px;
+  background-color: #F8BBD0;
+}
+
+#nav-bar ul {
+  list-style: none;
+  margin: 0;
+  margin-right: 50px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+#nav-bar li {
+  display: inline-block;
+  padding: 40px;
+}
+
+#header-img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color:#424242;
+}
+
+#welcome {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email {
+  width: 250px;
+}
+
+.btn {
+  background: #FFF59D;
+  border-radius: 7px;
+  padding: 10px 10px;
+  margin: 15px auto;
+  font-size: 14px;
+  font-weight:bold;
+  font-color: #424242;
+  box-shadow: 1px 2px 2px #4e4c80;
+}
+
+.btn:hover {
+  background: #FF8A65;
+  transition-duration: 1s;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 125px;
+  max-width: 700px;
+  width: 80vw;
+  padding: 15px;
+}
+
+.description h3 {
+margin: 0px; 
+padding: 0px;
+}
+
+#ourbakery {
+  padding: 20px;
+  margin: 30px auto;
+}
+
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  padding: 40px;
+}
+
+.box-title {
+  background-color: #FF80AB;
+  color: #424242;
+  padding: 1px 0;
+  width: 100%;
+  font-weight: bold;
+  border-bottom: 1px solid #616161;
+}
+
+#treat, #indulge, #decadent {
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #616161;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 40px;
+}
+    
+h4 {
+  margin-top: 30px;
+}
+
+ol{
+  list-style: none;
+  margin: 0px 0;
+}
+
+.pricelist {
+  padding-bottom: 10px;
+  padding-right: 80px;
+  padding-left: 40px;
+}
+
+button{
+  margin: 30px;
+}
+
+#footer {
+  text-align: right;
+  background-color: #FF80AB;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#footer li {
+  display: inline-block;
+  padding: 0 9px;
+  margin: 0;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.footer-paragraph {
+  font-size: 13px;
+  margin: 0;
+  margin-right: 55px;
+  padding: 0px;
+}
+
+
